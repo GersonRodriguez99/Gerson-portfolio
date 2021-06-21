@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.custom-settings-nav{
+    padding-top: 3%;
+}
+.custom-nav{
+    box-shadow: unset;
+}
+.navbar-extended{
+    position: relative;
+    z-index: 1;
+}
+
+.nav-wrapper ul:after{
+    content: "<Nav>";
+    font-family: 'Shadows Into Light', cursive;
+}

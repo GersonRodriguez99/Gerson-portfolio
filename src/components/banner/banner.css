@@ -1,0 +1,101 @@
+
+
+
+
+.main-banner{
+
+padding-top:5%;
+padding-bottom: 5%;
+background-position: center;
+    background-size: cover;
+
+}
+
+
+
+.test-namee {
+    display: inline-block;
+    text-decoration: none;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    text-transform: capitalize;
+    font-family: "Lato";
+    font-weight: 900;
+    font-size:larger;
+    font-size: 100px;
+
+  }
+  .rubber-effect{
+    color: white;
+    text-decoration: none;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    text-transform: capitalize;
+
+  }
+  .rubber-effect:hover {
+    animation-name: rubberBand;
+    animation-name: rubberBand;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fffefe;
+    -webkit-text-fill-color: white;
+  }
+  .test-namee:hover {
+    animation-name: rubberBand;
+    color: #fffefe;
+    -webkit-text-fill-color: white;
+  }
+  
+  @keyframes rubberBand {
+    from {
+      transform: scale3d(1, 1, 1);
+    }
+  
+    30% {
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    40% {
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    50% {
+      transform: scale3d(1.15, 0.85, 1);
+    }
+  
+    65% {
+      transform: scale3d(.95, 1.05, 1);
+    }
+  
+    75% {
+      transform: scale3d(1.05, .95, 1);
+    }
+  
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  .rubberBand {
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand;
+  }
+
+  .container.both{
+    position: relative;
+    z-index: 2;
+    padding-bottom: -10%;
+  }
+  canvas{
+    position: absolute;
+    z-index: 0;
+    width: 100% !important;
+  }
+  .canvasElement canvas{
+    top:-25px;
+  }
+  body{
+    overflow-x: hidden;
+  }

@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.custom-main-color{
+  background: #D60D4C;
+  background: -webkit-linear-gradient(to right, #D60D4C 0%, #C001FF 100%);
+  background: -moz-linear-gradient(to right, #D60D4C 0%, #C001FF 100%);
+  background: linear-gradient(to right, #D60D4C 0%, #C001FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.custom-main-color a{
+  text-transform: uppercase;
+}
+.custom-secondary-color a{
+  color: #C001FF !important;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+p{
+  font-family: 'lato';
+  color: #afafaf;
+}
+.padding{
+  padding: 1%;
+}

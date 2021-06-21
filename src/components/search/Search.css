@@ -1,0 +1,19 @@
+.img-container img{
+width: 30%;
+margin-top: -17%;
+position: relative;
+z-index: 2;
+}
+
+@media (max-width: 1450px) {
+    .img-container {
+        text-align: right;
+
+
+    }
+  }
+  
+.decription{
+    position: relative;
+    z-index: 4;
+}

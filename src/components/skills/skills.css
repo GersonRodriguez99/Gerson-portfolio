@@ -1,0 +1,37 @@
+.custom-card{
+    min-height: 282px;
+    border-radius: 25px;
+}
+.custom-card .card-image{
+    min-height: 197px;
+}
+.card-title{
+    background: #D60D4C;
+    background: -webkit-linear-gradient(to right, #D60D4C 0%, #C001FF 100%);
+    background: -moz-linear-gradient(to right, #D60D4C 0%, #C001FF 100%);
+    background: linear-gradient(to right, #D60D4C 0%, #C001FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+h4{
+    text-transform: uppercase;
+    color: white;
+}
+.skills-paragraph{
+    padding: 5%;
+}
+
+.skills-section{
+    background-size: 80%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    
+}
+.asset{
+
+    width: 44%;
+    position: absolute;
+    float: right;
+}
